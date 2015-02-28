@@ -1,3 +1,16 @@
 #chart_div {
 	border:solid 10px blue
-};
+}
+
+.col-md-2{
+	color:#ff0000;
+}
+.col-md-3{
+	color:blue;
+}
+.col-md-4{
+	color:yellow;
+}
+.col-md-1{
+	color:green;
+}
