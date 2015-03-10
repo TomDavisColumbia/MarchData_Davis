@@ -1,3 +1,5 @@
+var
+	
 	  // Load the Visualization API and the piechart package.
       google.load('visualization', '1.0', {'packages':['corechart']});
 
@@ -32,9 +34,9 @@
         data.addRows(bigArray);
 
         // Set chart options
-        var options = {'title':'How Much Pizza Did Seres Eat Over the Years',
-                       'width':1000,
-                       'height':800};
+        var options = {'title':'How Much Pizza Have I Eaten This Week?',
+                       'width':1100,
+                       'height':900};
 
         // Instantiate and draw our chart, passing in some options.
         var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
